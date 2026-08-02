@@ -69,9 +69,13 @@ visibility: hidden;
   padding: 6% 4%;
   margin: 5%;
   text-align: center;
+  
+  
 }
+
 h1{
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 0.2rem
 }
 
 .services-grid {
