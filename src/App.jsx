@@ -166,7 +166,7 @@ and create digital experiences that drive real results.</h2>
 <section id='contact-form'>
   <form>
     <h2>Contact us</h2><label htmlFor="name">Full Name</label>
-<input type="text" id="name"  required
+<input type="text" id="name"   placeholder="Enter your full name"  required
   minLength="3"/>
 
 <label htmlFor="email">Email</label>
