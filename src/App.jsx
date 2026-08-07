@@ -116,9 +116,8 @@ function menuHandle(){
 
 <h2>We design modern websites, build memorable brands,
 and create digital experiences that drive real results.</h2>
-<button>Get Started</button><button>View Services
-  <br/>
-</button>⭐⭐⭐⭐⭐ Trusted by 100+ businesses
+⭐⭐⭐⭐⭐ Trusted by 100+ businesses<br/>
+<button className='button1'>Get Started</button>
 </section><section id='services'>
   <div className="services-grid">
   {services.map((service, index) => (
@@ -165,15 +164,15 @@ and create digital experiences that drive real results.</h2>
 </section>
 <section id='contact-form'>
   <form>
-    <h2>Contact us</h2><label htmlFor="name">Full Name</label>
+    <h2>Contact us</h2><label htmlFor="name"></label>
 <input type="text" id="name"   placeholder="Enter your full name"  required
   minLength="3"/>
 
-<label htmlFor="email">Email</label>
-<input type="email" id="email" required />
+<label htmlFor="email"></label>
+<input type="email" id="email" placeholder="Enter your email address" required />
 
-<label htmlFor="message">Message</label>
-<textarea id="message" required></textarea>
+<label htmlFor="message"></label>
+<textarea id="message" placeholder="How can we help you?" required></textarea>
 
 <button type="submit">Send Message</button></form>
 </section>
