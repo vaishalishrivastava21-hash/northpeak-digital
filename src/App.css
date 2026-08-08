@@ -33,9 +33,11 @@ nav{
 }
 
 #btn1{
+ margin-top: 0.9rem;
 background-color: rgb(65, 59, 77);
 color: azure;
 border-radius: 9px;
+max-height: 2rem;
 
 }
 .mobile-menu{
